@@ -98,14 +98,15 @@ img {
 }
 
 .team-list {
-    
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    list-style: none;
+    justify-content: center;
 }
 
 @media only screen and (min-width: 768px) {
     .team-list {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
     gap: 64px 24px;
     }
 }
@@ -115,6 +116,7 @@ img {
   }
 
 .team-list-item {
+    max-width: 264px;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
@@ -123,8 +125,7 @@ img {
 
 @media only screen and (min-width: 768px) {
     .team-list-item {
-    
-    }
+}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -141,6 +142,17 @@ img {
 /*.team-list-item:last-child {
     margin-right: 0;
 }*/
+
+/*.team-list-item:not(:last-child) {
+    margin-bottom: 72px;
+}*/
+
+@media only screen and (min-width: 768px) {
+    .team-list-item:not(:last-child) {
+        margin-bottom: 0;
+    }
+}
+
 
 .team-list-item-name {
     color: #2E2F42;
