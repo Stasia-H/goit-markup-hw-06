@@ -73,6 +73,66 @@ img {
     }
   }
 
+/* ----------- HERO SECTION ---------- */
+
+.hero-section {
+    background: #2E2F42;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    flex-shrink: 0; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero/people-office-background.jpg);
+}
+
+.hero-title {
+    width: 496px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto;
+
+}
+
+.hero-button {
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    padding: 16px 32px;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
 
 /* ------------- BENEFITS SECTION ---------- */
 
@@ -96,7 +156,7 @@ img {
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
     .benefits-list {
         gap: 24px;
         flex-basis: calc(100%-24px)/4);
@@ -134,7 +194,7 @@ img {
     width: 264px;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
     .benefits-list-item-name {
       font-size: 20px;
       font-weight: 500;
@@ -207,7 +267,7 @@ img {
         }
   }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
     .team-list-item {
         flex-wrap: nowrap;
         flex-basis: calc((100% - 3 * 24px) / 4);
@@ -321,7 +381,7 @@ img {
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
     .portflio-list {
     gap: 48px 24px;
     }
@@ -339,7 +399,7 @@ img {
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
     .portflio-list-item {
         width: calc((100% - 48px) /3);
     }
@@ -422,7 +482,7 @@ img {
       gap: 72px 24px;
     }
   }
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1158px) {
     .footer-container {
       gap: 0;
     }
@@ -440,7 +500,7 @@ img {
     }
   }
 
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1158px) {
     .footer-logo-text {
       margin-right: 120px;
     }
@@ -482,7 +542,7 @@ img {
 
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
     .icons-social-div {
     margin-right: 80px;
     }
@@ -522,7 +582,7 @@ img {
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
     
   }
 
@@ -563,7 +623,7 @@ img {
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
     
   }
 
@@ -575,7 +635,7 @@ img {
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
     
   }
 
