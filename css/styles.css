@@ -355,9 +355,6 @@ img {
     }
 }
 
-@media only screen and (min-width: 1158px) {
-  }
-
 .hero-button {
     display: block;
     font-family: Roboto, sans-serif;
@@ -796,10 +793,6 @@ img {
     margin-bottom: 72px;
 }
 
-@media only screen and (min-width: 768px) {
-
-}
-
 @media only screen and (min-width: 1158px) {
     .icons-social-div {
     margin-right: 80px;
@@ -840,10 +833,6 @@ img {
     }
 }
 
-@media only screen and (min-width: 1158px) {
-    
-  }
-
 .link-social-footer {
     display: flex;
     width: 100%;
@@ -881,21 +870,12 @@ img {
     }
 }
 
-@media only screen and (min-width: 1158px) {
-    
-  }
-
-
 @media only screen and (min-width: 768px) {
     .subscribe-form {
         display: flex;
         gap: 24px;
     }
 }
-
-@media only screen and (min-width: 1158px) {
-    
-  }
 
 .subscribe-form-field {
 
