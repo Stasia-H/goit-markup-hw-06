@@ -281,11 +281,9 @@ img {
 
 @media (min-resolution: 192dpi) {
     .hero-section {
-        max-width: 768px;
-        padding: 112px 0;
         background-image: linear-gradient(
-            rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
         ),
         url(/images/hero/hero-image-mob@2x.jpg);
     }
@@ -293,6 +291,7 @@ img {
 
   @media only screen and (min-width: 768px) {
     .hero-section {
+        padding: 112px 0;
         background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
@@ -301,11 +300,9 @@ img {
     }
 }
 
-@media (min-resolution: 192dpi) {
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .hero-section {
-        max-width: 768px;
-        padding: 188px 0;
-        background-image: linear-gradient(
+            background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
         ),
@@ -315,6 +312,7 @@ img {
 
 @media only screen and (min-width: 1158px) {
     .hero-section {
+        max-width: 1440px;
         background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
@@ -323,10 +321,9 @@ img {
     }
   }
 
-  @media (min-resolution: 192dpi) {
+  @media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
     .hero-section {
-        max-width: 1440px;
-        background-image: linear-gradient(
+            background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
         ),
