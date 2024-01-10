@@ -404,14 +404,14 @@ img {
 @media only screen and (min-width: 768px) {
     .benefits-list {
         gap: 72px 24px;
-        flex-basis: calc(100%-24px)/2);
+        flex-basis: calc((100% - 24px) / 2);
     }
 }
 
 @media only screen and (min-width: 1158px) {
     .benefits-list {
         gap: 24px;
-        flex-basis: calc(100%-24px)/4);
+        flex-basis: calc((100% - 24px) / 4);
     }
   }
 
@@ -515,7 +515,7 @@ img {
 
    @media only screen and (min-width: 768px) {
     .team-list-item {
-        flex-basis: calc((100% - 1 * 24px) / 2);
+        flex-basis: calc((100% - 24px) / 2);
         }
   }
 
