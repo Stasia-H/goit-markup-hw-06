@@ -1199,7 +1199,7 @@ img {
     background-color: #fff;
     transform: translateX(100%);
     transition: transform 250ms linear;
-    visibility: hidden; /*убрать, чтобы было видно меню*/
+    visibility: hidden;/*убрать, чтобы было видно меню*/
 }
 
   .mobile-menu-wrapper.is-open {
